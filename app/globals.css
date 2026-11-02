@@ -13,3 +13,12 @@
 @media(min-width:801px) and (max-width:1200px){.header-inner{gap:12px}nav{gap:15px}.portal-name{font-size:12px}.user-header>span:not(.avatar){display:none}.user-header{border:0;padding-left:0}.language-switch button{padding:6px;font-size:9px}.login-form-wrap{width:330px}.login-form-wrap h1{font-size:31px}}
 @media(max-width:800px){.header-inner{gap:10px}.portal-name{display:none}.language-switch button{min-width:29px;padding:6px 5px;font-size:8px}.user-header{padding-left:0}.login-form-wrap{width:285px}.login-form-wrap h1{font-size:28px}.login-sub{font-size:12px!important}.visual-copy h2{font-size:29px}}
 @media(max-width:600px){.header-inner{gap:8px;padding:0 12px}nav{gap:12px}.header-inner>.brand-button .logo{width:62px}.user-header{margin-left:0}.user-header .icon-btn{width:23px}.header-inner>.language-switch{margin-left:3px}.language-switch button{min-width:27px;font-size:8px;padding:6px 4px}.public-header{gap:10px;padding:0 20px}.public-header>span:not(.logo){font-size:8px}.public-header>.language-switch{margin-left:auto}.login-form-wrap{width:360px;max-width:100%;padding-top:25px}.login-form-wrap h1{font-size:32px;max-width:340px}.login-sub{font-size:13px!important}.catalogue-toolbar .tabs{flex-wrap:wrap;justify-content:flex-start}.tabs>button{font-size:8px}.region-card p{min-height:30px}.product-info h3{min-height:34px}.product-info p{min-height:28px}.btn{overflow-wrap:anywhere}.cart-nav b{font-size:8px}.supplier-page .public-header>span:not(.logo){max-width:140px}.account-fields>div{grid-template-columns:100px 1fr}}
+
+.store-location{display:flex;align-items:center;gap:16px;padding:20px 22px;margin:0 0 22px;background:white;border:1px solid var(--border);border-radius:8px}
+.store-location-icon{display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:9px;background:var(--pink);color:var(--red);flex-shrink:0}
+.store-location-copy{flex:1;min-width:0}
+.store-location h3{font-size:13px;letter-spacing:0;margin:0 0 5px}
+.store-location p{font-size:11px;line-height:1.8;color:#777b80;max-width:660px}
+.store-location-actions{display:flex;align-items:center;flex-shrink:0}
+.store-location-actions .btn{font-size:11px;min-height:40px;padding:10px 14px}
+@media(max-width:700px){.store-location{flex-wrap:wrap;padding:17px;gap:12px}.store-location-copy{flex-basis:calc(100% - 54px)}.store-location-actions{width:100%;padding-left:54px}.store-location-actions:empty{display:none}.store-location-actions .btn{width:100%}}
